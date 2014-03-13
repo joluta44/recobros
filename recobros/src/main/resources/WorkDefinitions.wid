@@ -1,5 +1,6 @@
 import org.drools.core.process.core.datatype.impl.type.StringDataType;
 import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
+import org.jbpm.recobros.*;
 
 [
   [
@@ -13,7 +14,6 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
     "displayName" : "Email",
     "icon" : "defaultemailicon.gif"
   ],
-
   [
     "name" : "Log",
     "parameters" : [
@@ -55,6 +55,76 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
     ],
     "displayName" : "REST",
     "icon" : "defaultservicenodeicon.png"
-  ]
+  ],
 
+[
+    "name" : "InformacionFormula",
+    "parameters" : [
+        "cod_empresa" : new StringDataType(),
+        "cod_caf" : new StringDataType(),
+        "num_formula" : new StringDataType(),
+        "cod_prefijo" : new StringDataType()       
+    ],
+    "results" : [
+	"tiene_soporte" : new StringDataType(),
+	"ruta_soporte" : new StringDataType(),
+	"homologos" : new StringDataType(),
+        "nom_caf" : new StringDataType(),        
+	"cod_cliente" : new StringDataType(),        
+	"nom_cliente" : new StringDataType(),        
+        "items" : new ObjectDataType(),
+    ],
+    "displayName" : "InformacionFormula",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+[
+    "name" : "Configuracion",
+    "parameters" : [
+        "cod_empresa" : new StringDataType()    
+    ],
+    "results" : [	
+        "formulacion_correo_to" : new StringDataType(),
+        "formulacion_correo_asunto" : new StringDataType(),
+        "formulacion_correo_body" : new StringDataType(),
+        "formulacion_correo_from" : new StringDataType(),
+	"formulacion_digitalizacion_ruta" : new StringDataType(),
+	"homologos_correo_asunto" : new StringDataType(),
+	"homologos_correo_body" : new StringDataType(),
+	"homologos_correo_to" : new StringDataType(),
+    ],
+    "displayName" : "Configuracion",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+[
+    "name" : "Estado",
+    "results" : [
+	"resultado" : new StringDataType(),	
+    ],
+    "displayName" : "Estado",
+    "icon" : "defaultservicenodeicon.png"    
+  ],
+
+[
+    "name" : "GuardarHomologo",
+    "parameters" : [
+        "cod_empresa" : new StringDataType(),
+        "cod_cliente" : new StringDataType(),
+        "items" : new ObjectDataType(),
+        "tipo_contrato" : new StringDataType(),
+        "mostrar_facturacion" : new StringDataType()              
+    ],    
+    "displayName" : "GuardarHomologo",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+[
+    "name" : "GuardarInstancia",
+    "parameters" : [
+        "cod_empresa" : new StringDataType(),
+        "cod_caf" : new StringDataType(),
+        "num_formula" : new StringDataType(),
+        "cod_prefijo" : new StringDataType()       
+    ],    
+    "displayName" : "GuardarInstancia",
+    "icon" : "defaultservicenodeicon.png"
+  ]
 ]

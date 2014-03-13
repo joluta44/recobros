@@ -4,13 +4,14 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.audifarma.recobros</groupId>
   <artifactId>recobros</artifactId>
-  <version>1.0</version>
-  <name>recobros</name>
+  <version>0.4</version>
+  <name>Recobros</name>
+  <description>BPM que describe todo el proceso de recobros desde que se digita una fórmula hasta que es efectivo el recobro</description>
   <repositories>
     <repository>
       <id>guvnor-m2-repo</id>
       <name>Guvnor M2 Repo</name>
-      <url>http://10.1.1.86:8080/jbpm-console/maven2/</url>
+      <url>http://localhost:8080/jbpm-console/maven2/</url>
     </repository>
   </repositories>
 </project>
