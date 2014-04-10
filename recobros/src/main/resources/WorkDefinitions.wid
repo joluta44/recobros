@@ -91,14 +91,19 @@ import org.jbpm.recobros.*;
 	"homologos_correo_asunto" : new StringDataType(),
 	"homologos_correo_body" : new StringDataType(),
 	"homologos_correo_to" : new StringDataType(),
+	"glosas_timer" : new StringDataType(),
     ],
     "displayName" : "Configuracion",
     "icon" : "defaultservicenodeicon.png"
   ],
 [
     "name" : "Estado",
+    "parameters" : [
+        "nombre_estado" : new StringDataType()    
+    ],
     "results" : [
 	"resultado" : new StringDataType(),	
+	"resultado2" : new StringDataType(),	
     ],
     "displayName" : "Estado",
     "icon" : "defaultservicenodeicon.png"    
@@ -114,6 +119,40 @@ import org.jbpm.recobros.*;
         "mostrar_facturacion" : new StringDataType()              
     ],    
     "displayName" : "GuardarHomologo",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+[
+    "name" : "SincronizarRecobros",
+    "parameters" : [
+        "cod_empresa" : new StringDataType(),     
+        "num_factura" : new StringDataType()    
+    ],    
+    "displayName" : "SincronizarRecobros",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+[
+    "name" : "InformacionFactura",
+    "parameters" : [
+        "cod_empresa" : new StringDataType(),        
+        "num_factura" : new StringDataType()  
+    ],
+    "results" : [	      
+	"recobros_tope" : new StringDataType(),        
+	"total_factura" : new StringDataType(),        
+    ],
+    "displayName" : "InformacionFactura",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+[
+    "name" : "ValidacionGlosa",
+    "parameters" : [
+        "cod_empresa" : new StringDataType(),        
+        "num_factura" : new StringDataType()  
+    ],
+    "results" : [	      
+	"num_glosa" : new StringDataType(),        
+    ],
+    "displayName" : "ValidacionGlosa",
     "icon" : "defaultservicenodeicon.png"
   ],
 [
