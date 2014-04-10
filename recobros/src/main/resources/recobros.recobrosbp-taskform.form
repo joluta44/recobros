@@ -1,0 +1,106 @@
+
+<form id="1422285944">
+<property name="subject" value=""/>
+<property name="name" value="recobros.recobrosbp-taskform.form"/>
+<property name="displayMode" value="aligned"/>
+<property name="labelMode" value="undefined"/>
+<property name="status" value="0"/>
+<field position="0" name="codCaf" type="InputText" id="1966270103">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;codCaf (codCaf)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="codCaf"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="codEmpresa" type="InputText" id="341388815">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;codEmpresa (codEmpresa)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="codEmpresa"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="codPrefijo" type="InputText" id="1885398156">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;codPrefijo (codPrefijo)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="codPrefijo"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="numeroFormula" type="InputText" id="194917407">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;numeroFormula (numeroFormula)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="numeroFormula"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="ConfigFormulacionDigitalizacionRuta" type="InputText" id="1041071993">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ConfigFormulacionDigitalizacionRuta (ConfigFormulacionDigitalizacionRuta)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="ConfigFormulacionDigitalizacionRuta"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="codCliente" type="InputText" id="1137590936">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;codCliente (codCliente)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="codCliente"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="codFacturacion" type="InputText" id="580149772">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;codFacturacion (codFacturacion)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="codFacturacion"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="codRadicacion" type="InputText" id="864736791">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;codRadicacion (codRadicacion)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="codRadicacion"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="8" name="codRevision" type="InputText" id="1193582097">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;codRevision (codRevision)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="codRevision"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="9" name="nomCliente" type="InputText" id="1176415920">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;nomCliente (nomCliente)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="nomCliente"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#0000A0" type="basicType" outId="ConfigFormulacionCorreoAsunto" value="java.lang.String" id="ConfigFormulacionCorreoAsunto"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="ConfigFormulacionCorreoBody" value="java.lang.String" id="ConfigFormulacionCorreoBody"/>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="ConfigFormulacionCorreoFrom" value="java.lang.String" id="ConfigFormulacionCorreoFrom"/>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="ConfigFormulacionCorreoTo" value="java.lang.String" id="ConfigFormulacionCorreoTo"/>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="ConfigFormulacionDigitalizacionRuta" value="java.lang.String" id="ConfigFormulacionDigitalizacionRuta"/>
+<dataHolder inputId="" name="#FF8881" type="basicType" outId="ConfigHomologosCorreoAsunto" value="java.lang.String" id="ConfigHomologosCorreoAsunto"/>
+<dataHolder inputId="" name="#FBB767" type="basicType" outId="ConfigHomologosCorreoBody" value="java.lang.String" id="ConfigHomologosCorreoBody"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="ConfigHomologosCorreoTo" value="java.lang.String" id="ConfigHomologosCorreoTo"/>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="codCaf" value="java.lang.String" id="codCaf"/>
+<dataHolder inputId="" name="#000000" type="basicType" outId="codCliente" value="java.lang.String" id="codCliente"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="codEmpresa" value="java.lang.String" id="codEmpresa"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="codFacturacion" value="java.lang.String" id="codFacturacion"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="codPrefijo" value="java.lang.String" id="codPrefijo"/>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="codRadicacion" value="java.lang.String" id="codRadicacion"/>
+<dataHolder inputId="" name="#0000A0" type="basicType" outId="codRevision" value="java.lang.String" id="codRevision"/>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="cod_caf" value="java.lang.String" id="cod_caf"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="cod_empresa" value="java.lang.Integer" id="cod_empresa"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="cod_prefijo" value="java.lang.String" id="cod_prefijo"/>
+<dataHolder inputId="" name="#000000" type="basicType" outId="digitalizado" value="java.lang.Boolean" id="digitalizado"/>
+<dataHolder inputId="" name="#0000A0" type="dataModelerEntry" outId="formula" value="org.jbpm.recobros.Formula" id="formula"/>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="homologos" value="java.lang.String" id="homologos"/>
+<dataHolder inputId="" name="#0000A0" type="className" outId="listaMedicamentos" value="org.jbpm.recobros.recobrosworkitems.FormulaJBPM" id="listaMedicamentos"/>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="nomCaf" value="java.lang.String" id="nomCaf"/>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="nomCliente" value="java.lang.String" id="nomCliente"/>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="numeroFormula" value="java.lang.String" id="numeroFormula"/>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="numero_formula" value="java.lang.Integer" id="numero_formula"/>
+<dataHolder inputId="" name="#FBB767" type="basicType" outId="rutaSoporte" value="java.lang.String" id="rutaSoporte"/>
+<dataHolder inputId="" name="#FF8881" type="basicType" outId="tieneSoporte" value="java.lang.String" id="tieneSoporte"/>
+</form>
