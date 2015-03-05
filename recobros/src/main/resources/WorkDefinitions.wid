@@ -14,14 +14,7 @@ import org.jbpm.recobros.*;
     "displayName" : "Email",
     "icon" : "defaultemailicon.gif"
   ],
-  [
-    "name" : "Log",
-    "parameters" : [
-      "Message" : new StringDataType()
-    ],
-    "displayName" : "Log",
-    "icon" : "defaultlogicon.gif"
-  ],
+ 
 
   [
     "name" : "WebService",
@@ -164,6 +157,124 @@ import org.jbpm.recobros.*;
         "cod_prefijo" : new StringDataType()       
     ],    
     "displayName" : "GuardarInstancia",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+[
+    "name" : "ConfiguracionRecobros",
+	"results" : [	
+        "recobros_correo_to" : new StringDataType(),
+        "recobros_correo_asunto" : new StringDataType(),
+        "recobros_correo_body" : new StringDataType(),
+        "recobros_correo_from" : new StringDataType(),
+	 "recobros_tope_automatico" : new StringDataType(),
+    ],
+    "displayName" : "ConfiguracionRecobros",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+[
+    "name" : "InformacionFacturaRecobros",
+    "parameters" : [       
+        "num_factura" : new StringDataType()  
+    ],
+    "results" : [	      
+	"recobros_tipo" : new StringDataType(),        
+	"total_factura" : new StringDataType(),        
+    ],
+    "displayName" : "InformacionFacturaRecobros",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+[
+    "name" : "RecobroRecurrente",
+    "parameters" : [       
+        "num_factura" : new StringDataType()  
+    ],
+    "results" : [	      
+	"ruta_soporte" : new StringDataType(),        
+	"recurrente" : new StringDataType(),        
+    ],
+    "displayName" : "RecobroRecurrente",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+[
+    "name" : "ultimoRadicado",
+    "parameters" : [       
+        "num_factura" : new StringDataType()  
+    ],
+    "results" : [	      
+	"num_factura_liq" : new StringDataType(),        
+	"consecutivo_radicacion_liq" : new StringDataType(),        
+    ],
+    "displayName" : "ultimoRadicado",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+[
+    "name" : "liquidarCuentaRecurrente",
+    "parameters" : [       
+        "num_factura" : new StringDataType(),  
+        "num_factura_liq" : new StringDataType(),
+        "consecutivo_radicacion_liq" : new StringDataType(),
+        "ruta_soporte" : new StringDataType(),
+    ],
+    "results" : [	      
+	"liquidada" : new StringDataType(),        
+    ],
+    "displayName" : "liquidarCuentaRecurrente",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+[
+    "name" : "liquidarCuentaAutomatica",
+    "parameters" : [       
+        "num_factura" : new StringDataType(),         
+    ],
+    "results" : [	      
+	"liquidada" : new StringDataType(),        
+    ],
+    "displayName" : "liquidarCuentaAutomatica",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+[
+    "name" : "asignacionCuentaAutomatica",
+    "parameters" : [       
+        "num_factura" : new StringDataType(),         
+    ],
+    "results" : [	      
+	"usuario" : new StringDataType(),        
+    ],
+    "displayName" : "asignacionCuentaAutomatica",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+[
+    "name" : "informacionRecobroManual",
+    "parameters" : [       
+        "num_factura" : new StringDataType(),         
+    ],
+    "results" : [	      
+	"en_proceso" : new StringDataType(),        
+	"inconsistencia_en_facturas" : new StringDataType(),        
+	"liquidado" : new StringDataType(),        
+	"no_recobrable" : new StringDataType(),        
+	"pendiente_acta" : new StringDataType(),        
+	"pendiente_fallo_de_tutela" : new StringDataType(),        
+	"pendiente_soportes" : new StringDataType(),        
+    ],
+    "displayName" : "informacionRecobroManual",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+[
+    "name" : "otro",
+    "parameters" : [       
+        "num_factura" : new StringDataType(),         
+    ],
+    "results" : [	      
+	"en_proceso" : new StringDataType(),        
+	"inconsistencia_en_facturas" : new StringDataType(),        
+	"liquidado" : new StringDataType(),        
+	"no_recobrable" : new StringDataType(),        
+	"pendiente_acta" : new StringDataType(),        
+	"pendiente_fallo_de_tutela" : new StringDataType(),        
+	"pendiente_soportes" : new StringDataType(),        
+    ],
+    "displayName" : "informacionRecobroManual",
     "icon" : "defaultservicenodeicon.png"
   ]
 ]
