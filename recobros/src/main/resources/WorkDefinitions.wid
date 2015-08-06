@@ -287,5 +287,17 @@ import org.jbpm.recobros.*;
     ],
     "displayName" : "cerrarTareaUsuario",
     "icon" : "defaultservicenodeicon.png"
+  ],
+
+[
+    "name" : "cerrarTareaSistema",
+    "parameters" : [       
+        "tarea" : new StringDataType(),         
+    ],
+    "results" : [	      
+	"resultado" : new StringDataType(),        	      
+    ],
+    "displayName" : "cerrarTareaSistema",
+    "icon" : "defaultservicenodeicon.png"
   ]
 ]
