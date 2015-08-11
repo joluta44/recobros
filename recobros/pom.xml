@@ -4,7 +4,8 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.audifarma.recobros</groupId>
   <artifactId>recobros</artifactId>
-  <version>0.4</version>
+  <version>1.5</version>
+  <packaging>kjar</packaging>
   <name>Recobros</name>
   <description>BPM que describe todo el proceso de recobros desde que se digita una fórmula hasta que es efectivo el recobro</description>
   <repositories>
@@ -14,4 +15,14 @@
       <url>http://localhost:8080/jbpm-console/maven2/</url>
     </repository>
   </repositories>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.kie</groupId>
+        <artifactId>kie-maven-plugin</artifactId>
+        <version>6.1.0.Final</version>
+        <extensions>true</extensions>
+      </plugin>
+    </plugins>
+  </build>
 </project>
