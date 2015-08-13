@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.audifarma.recobros</groupId>
   <artifactId>recobros</artifactId>
-  <version>1.6</version>
+  <version>1.5</version>
   <packaging>kjar</packaging>
   <name>Recobros</name>
   <description>BPM que describe todo el proceso de recobros desde que se digita una fórmula hasta que es efectivo el recobro</description>
